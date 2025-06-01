@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 1 Div</title>
+    <style>
+        div {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-------------------------Grandparent div----------------------------------------------->
+    <div style="height: 700px;width: 1500px;background-color: brown;">
+        <!---------------------Headerdiv1------------------------------------------------------->
+        <div style="height: 200px;width: 1500px;background-color: chartreuse;"></div>
+        <!---------------------Bodydiv2(Parent div2)------------------------------------------------------->
+        <div style="height: 300px;width: 1500px;background-color: rgb(38, 25, 135); display: flex;">
+            <!-----------------child div1------------------------------------------------------>
+            <div style="height: 300px;width: 750px;background-color: rgb(137, 165, 57); ">
+                <!--------------grand child div1---------------------------------------------->
+                <div style="height: 150px; width: 750px;background-color: cornflowerblue; display: flex;">
+                    <!----------------leastchild1--------------------------------------------->
+                    <div style="height: 150px; width: 375px;background-color: crimson;"></div>
+                    <!----------------leastchild2--------------------------------------------->
+                    <div style="height: 150px; width: 375px;background-color: rgb(244, 134, 8);"></div>
+                </div>
+                <!--------------grand child div2---------------------------------------------->
+                <div style="height: 150px; width: 750px;background-color: rgb(59, 97, 167);"></div>
+            </div>
+            <!-----------------child div2------------------------------------------------------>
+            <div style="height: 300px;width: 750px;background-color: rgb(127, 22, 43); "></div>
+        </div>
+        <!---------------------Footer Div3-------------------------------------------------------------------->
+        <div style="height: 200px;width: 1500px;background-color: rgb(197, 23, 180);"></div>
+    </div>
+    <hr>
+    <!---------------------------------GrandparentDiv1----------------------------------->
+    <div style="height: 700px;width: 1500px;background-color: brown;">
+        <!-----------------------------Header div(parentdiv1)------------------------------------------>
+        <div style="height: 150px;width: 1500px;background-color: rgb(123, 151, 95);display: flex;">
+            <div style=" height: 150px;width: 500px;background-color: crimson;"></div>
+            <div style=" height: 150px;width: 500px;background-color: rgb(97, 29, 43);"></div>
+            <div style=" height: 150px;width: 500px;background-color: rgb(119, 50, 74);"></div>
+        </div>
+        <!-----------------------------Bodydiv(parentdiv1)---------------------------------------------------------->
+        <div style="height: 400px;width: 1500px;background-color: chartreuse; display: flex;">
+            <div style="height: 400px; width: 500px; background-color: darkslateblue;"></div>
+            <div style="height: 400px; width: 500px; background-color: rgb(28, 17, 99);">
+                <div style="height: 200px; width: 500px; background-color: coral;"></div>
+                <div style="height: 200px; width: 500px; background-color: rgb(143, 76, 52);"></div>
+            </div>
+            <div style="height: 400px; width: 500px; background-color: rgb(16, 10, 54);"></div>
+        </div>
+        <!-----------------------------Footerdiv(parentdiv1)------------------------------------------>
+        <div style="height: 150px;width: 1500px;background-color: rgb(47, 90, 4);display: flex;">
+            <div style="height: 150px; width: 500px; background-color: fuchsia;"></div>
+            <div style="height: 150px; width: 500px; background-color: rgb(185, 23, 185);"></div>
+            <div style="height: 150px; width: 500px; background-color: rgb(183, 76, 183);"></div>
+        </div>
+    </div>
+    <hr>
+    <!---------------------------------GrandparentDiv1----------------------------------->
+    <div style="height: 700px;width: 1500px;background-color: brown;">
+        <div style="height: 150px;width: 1500px;background-color: rgb(123, 151, 95);display: flex;">
+            <div style=" height: 150px;width: 500px;background-color: crimson;"></div>
+            <div style=" height: 150px;width: 500px;background-color: rgb(97, 29, 43);"></div>
+            <div style=" height: 150px;width: 500px;background-color: rgb(119, 50, 74);"></div>
+        </div>
+        <!---------------------------------Bodyparentdiv1------------------------------->
+        <div style="height: 400px;width: 1500px;background-color: chartreuse; display: flex;">
+            <!--------------------------bodychilddiv1---------------------------------------------------->
+            <div style="height: 400px; width: 500px; background-color: darkslateblue; display: flex;">
+                <div style="height: 400px;width: 250px;background-color: chocolate;">
+                    <div style="height: 133px; width: 250px;background-color: red;"></div>
+                    <div style="height: 133px; width: 250px;background-color: rgb(48, 4, 4);"></div>
+                    <div style="height: 133px; width: 250px;background-color: rgb(90, 8, 8);"></div>
+                </div>
+                <div style="height: 400px;width: 250px;background-color: rgb(255, 106, 0);">
+                    <div style="height: 133px; width: 250px;background-color: rgb(43, 0, 255);"></div>
+                    <div style="height: 133px; width: 250px;background-color: rgb(39, 10, 82);"></div>
+                    <div style="height: 133px; width: 250px;background-color: rgb(157, 0, 255);"></div>
+                </div>
+            </div>
+            <!--------------------------bodychilddiv2---------------------------------------------------->
+            <div style="height: 400px; width: 500px; background-color: rgb(28, 17, 99);">
+                <div style="height: 200px; width: 500px; background-color: coral; display: flex;">
+                    <div style="height: 200px;width: 250px;background-color: darkred;"></div>
+                    <div style="height: 200px;width: 250px;background-color: rgb(182, 49, 49);"></div>
+                </div>
+                <div style="height: 200px; width: 500px; background-color: rgb(143, 76, 52); display: flex;">
+                    <div style="height: 200px;width: 150px; background-color: chartreuse;"></div>
+                    <div style="height: 200px;width: 200px; background-color: rgb(40, 60, 20);"></div>
+                    <div style="height: 200px;width: 150px; background-color: rgb(80, 138, 22);"></div>
+                </div>
+            </div>
+            <!--------------------------bodychilddiv3---------------------------------------------------->
+            <div style="height: 400px; width: 500px; background-color: rgb(16, 10, 54); display: flex;">
+                <div style="height: 400px; width: 250px; background-color: cadetblue;"></div>
+                <div style="height: 400px; width: 250px; background-color: rgb(21, 122, 125);">
+                    <div style="height:133px;width: 250px;background-color: darkkhaki;"></div>
+                    <div style="height:133px;width: 250px;background-color: rgb(232, 216, 5);"></div>
+                    <div style="height:133px;width: 250px;background-color: rgb(255, 243, 72);"></div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------Footerparentdiv1------------------------------->
+        <div style="height: 150px;width: 1500px;background-color: rgb(54, 88, 20);display: flex;">
+            <div style="height: 150px; width: 500px; background-color: fuchsia;"></div>
+            <div style="height: 150px; width: 500px; background-color: rgb(185, 23, 185);"></div>
+            <div style="height: 150px; width: 500px; background-color: rgb(183, 76, 183);"></div>
+        </div>
+    </div>
+</body>
+
+</html>
